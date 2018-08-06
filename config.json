@@ -1,0 +1,19 @@
+{
+
+    // ------
+    // VSCode
+    // ------
+
+    // Show all whitespaces
+    "editor.renderWhitespace": "all",
+
+    // Add an empty line at the end of a file
+    "files.insertFinalNewline": true,
+
+    // Turn off status bar (i.e. blue line at the bottom)
+    "workbench.statusBar.visible": false,
+
+    // Disable `Open Editors` pane as I am using tabs
+    "explorer.openEditors.visible": 0
+
+}
