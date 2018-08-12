@@ -14,6 +14,9 @@
     "workbench.statusBar.visible": false,
 
     // Disable `Open Editors` pane as I am using tabs
-    "explorer.openEditors.visible": 0
+    "explorer.openEditors.visible": 0,
+    "window.zoomLevel": -1,
 
+     // Controls if the editor will scroll beyond the last line
+     "editor.scrollBeyondLastLine": false,
 }
