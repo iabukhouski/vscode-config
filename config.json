@@ -1,22 +1,36 @@
 {
-
     // ------
     // VSCode
     // ------
-
     // Show all whitespaces
     "editor.renderWhitespace": "all",
-
     // Add an empty line at the end of a file
     "files.insertFinalNewline": true,
-
     // Turn off status bar (i.e. blue line at the bottom)
     "workbench.statusBar.visible": false,
-
     // Disable `Open Editors` pane as I am using tabs
     "explorer.openEditors.visible": 0,
     "window.zoomLevel": -1,
-
-     // Controls if the editor will scroll beyond the last line
-     "editor.scrollBeyondLastLine": false,
+    // Controls if the editor will scroll beyond the last line
+    "editor.scrollBeyondLastLine": false,
+    // -----------------------------
+    // Suggestions and auto-complete
+    // -----------------------------
+    // Enables a pop-up that shows parameter documentation and type information as you type.
+    "editor.parameterHints": false,
+    "editor.suggestOnTriggerCharacters": false,
+    // Controls whether the editor should automatically close brackets after the user adds an opening bracket.
+    "editor.autoClosingBrackets": false,
+    // Enable/disable quick suggestions when typing out an import path.
+    "typescript.quickSuggestionsForPaths": false,
+    // Enable/disable auto import suggestions. Requires using TypeScript 2.6.1 or newer in the workspace.
+    "typescript.autoImportSuggestions.enabled": false,
+    // Controls whether suggestions should be accepted on commit characters. For example, in JavaScript, the semi-colon (`;`) can be a commit character that accepts a suggestion and types that character.
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    // Controls if quick suggestions should show up while typing
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
 }
